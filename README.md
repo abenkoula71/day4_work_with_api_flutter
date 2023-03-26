@@ -35,10 +35,8 @@ if (response.statusCode == 200) {
 ##  <h3>5- Send an HTTP POST request to the API endpoint to send data:</h3>
 
 ```git-bash
-if (response.statusCode == 200) {
-  var data = jsonDecode(response.body);
-  // Do something with the data
-} else {
-  // Handle error
-}
+var response = await http.post(Uri.parse('https://example.com/api/data'), body: {
+  'key1': 'value1',
+  'key2': 'value2'
+});
   ```
