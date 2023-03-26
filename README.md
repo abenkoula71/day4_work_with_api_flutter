@@ -43,4 +43,3 @@ var response = await http.post(Uri.parse('https://example.com/api/data'), body: 
   ##  <h3>6- Handle the response in the same way as the GET request.</h3>
 
 
-
