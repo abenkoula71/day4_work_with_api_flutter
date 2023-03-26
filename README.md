@@ -15,7 +15,7 @@ dependencies:
 import 'package:http/http.dart' as http;
   ```
 
-##  <h3>£- Import the http package in your Dart code:</h3>
+##  <h3>3- Send an HTTP GET request to the API endpoint to retrieve data:</h3>
 
 ```git-bash
 import 'package:http/http.dart' as http;
