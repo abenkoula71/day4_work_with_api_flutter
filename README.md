@@ -18,5 +18,5 @@ import 'package:http/http.dart' as http;
 ##  <h3>3- Send an HTTP GET request to the API endpoint to retrieve data:</h3>
 
 ```git-bash
-import 'package:http/http.dart' as http;
+var response = await http.get(Uri.parse('https://example.com/api/data'));
   ```
