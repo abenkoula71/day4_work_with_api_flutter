@@ -40,3 +40,13 @@ var response = await http.post(Uri.parse('https://example.com/api/data'), body: 
   'key2': 'value2'
 });
   ```
+  
+  ##  <h3>6- Send an HTTP POST request to the API endpoint to send data:</h3>
+
+```git-bash
+var response = await http.post(Uri.parse('https://example.com/api/data'), body: {
+  'key1': 'value1',
+  'key2': 'value2'
+});
+  ```
+
