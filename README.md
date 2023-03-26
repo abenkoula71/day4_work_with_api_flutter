@@ -24,5 +24,10 @@ var response = await http.get(Uri.parse('https://example.com/api/data'));
 ##  <h3>4- Handle the response by checking the status code and parsing the response body:</h3>
 
 ```git-bash
-var response = await http.get(Uri.parse('https://example.com/api/data'));
+if (response.statusCode == 200) {
+  var data = jsonDecode(response.body);
+  // Do something with the data
+} else {
+  // Handle error
+}
   ```
