@@ -12,6 +12,5 @@ dependencies:
 ##  <h3>2- Import the http package in your Dart code:</h3>
 
 ```git-bash
-dependencies:
-  http: ^0.13.4
+import 'package:http/http.dart' as http;
   ```
