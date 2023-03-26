@@ -1,7 +1,7 @@
 
 
     Uri url=Uri.parse(
-          'https://raw.githubusercontent.com/abenkoula71/qsm/main/qsm_ar.json',
+          'link of api',
         );
     final response = await http.get(
         url,
