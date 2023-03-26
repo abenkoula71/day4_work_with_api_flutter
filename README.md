@@ -21,7 +21,7 @@ import 'package:http/http.dart' as http;
 var response = await http.get(Uri.parse('https://example.com/api/data'));
   ```
 
-#  <h3>4- Handle the response by checking the status code and parsing the response body:</h3>
+ <h3>4- Handle the response by checking the status code and parsing the response body:</h3>
 
 ```git-bash
 if (response.statusCode == 200) {
