@@ -9,7 +9,7 @@ dependencies:
   http: ^0.13.4
   ```
 
-##  <h3>1- Add the http package to your project by adding the following line to your pubspec.yaml file :</h3>
+##  <h3>2- Import the http package in your Dart code:</h3>
 
 ```git-bash
 dependencies:
