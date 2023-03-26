@@ -31,3 +31,14 @@ if (response.statusCode == 200) {
   // Handle error
 }
   ```
+
+##  <h3>5- Handle the response by checking the status code and parsing the response body:</h3>
+
+```git-bash
+if (response.statusCode == 200) {
+  var data = jsonDecode(response.body);
+  // Do something with the data
+} else {
+  // Handle error
+}
+  ```
