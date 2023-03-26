@@ -5,3 +5,7 @@
 dependencies:
   http: ^0.13.4
   ```
+```git-bash
+git clone https://github.com/yourUsername/yourRepo
+cd yourRepo
+```
