@@ -32,7 +32,7 @@ if (response.statusCode == 200) {
 }
   ```
 
-##  <h3>5- Handle the response by checking the status code and parsing the response body:</h3>
+##  <h3>5- Send an HTTP POST request to the API endpoint to send data:</h3>
 
 ```git-bash
 if (response.statusCode == 200) {
