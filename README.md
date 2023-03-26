@@ -14,7 +14,7 @@ dependencies:
 import 'package:http/http.dart' as http;
   ```
  <h1> Use </h1>
-  <h3>3- Send an HTTP GET request to the API endpoint to retrieve data:</h3>
+ <h3>3- Send an HTTP GET request to the API endpoint to retrieve data:</h3>
 ```git-bash
 var response = await http.get(Uri.parse('https://example.com/api/data'));
   ```
